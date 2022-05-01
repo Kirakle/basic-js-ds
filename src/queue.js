@@ -36,10 +36,10 @@ class Queue {
     }
 
     dequeue() {
-        let prevRoot =null;
-        prevRoot = this.head.value;
+        let prev = null;
+        prev = this.head.value;
         this.head = this.head.next;
-        return prevRoot;
+        return prev;
     }
 }
 
